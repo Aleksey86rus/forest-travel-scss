@@ -1,0 +1,12 @@
+@mixin flex-jc-space-between() {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin radius($radius) {
+  border-radius: $radius;
+}
+
+@mixin border-none() {
+  border: none;
+}

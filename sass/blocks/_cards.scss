@@ -1,0 +1,75 @@
+.cards-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-link-wrapper {
+  transition: 0.3s;
+}
+
+.card-link-wrapper:hover {
+  opacity: 0.9;
+}
+
+.card-link-wrapper.small {
+  width: 570px;
+}
+
+.card-link-wrapper.wide {
+  width: 670px;
+}
+
+.card-link-wrapper.high {
+  width: 470px;
+}
+
+.card-title-wrapper {
+  @include flex-jc-space-between();
+  align-items: center;
+  padding-left: 30px;
+  height: 80px;
+  background-color: #0ac883;
+
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.card-title-wrapper.gray-color {
+  background-color: #a6a6a6;
+}
+
+.card-title-wrapper.sent-color {
+  background-color: #c1b19b;
+}
+
+.card-title-wrapper.turquoise-color {
+  background-color: #66b0be;
+}
+
+.card-title-wrapper.brown-color {
+  background-color: #876f56;
+}
+
+.card-title-wrapper.green-color {
+  background-color: #27695e;
+}
+
+.card-title {
+  color: $mainColor;
+  font-size: 28px;
+  font-weight: 700;
+
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.card-column {
+  @include flex-jc-space-between();
+  flex-direction: column;
+}

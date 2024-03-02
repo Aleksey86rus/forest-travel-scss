@@ -1,0 +1,21 @@
+// base
+@import "./base/vars";
+@import "./base/base";
+
+// blocks
+@import "./blocks/article";
+@import "./blocks/button";
+@import "./blocks/cards";
+@import "./blocks/checkbox";
+@import "./blocks/contacts";
+@import "./blocks/footer";
+@import "./blocks/form";
+@import "./blocks/header-inner";
+@import "./blocks/header";
+@import "./blocks/main";
+@import "./blocks/radio";
+
+// media
+@import "./media/tablet";
+@import "./media/mobile";
+@import "./media/mobile-xs";

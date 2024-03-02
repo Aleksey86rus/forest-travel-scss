@@ -1,0 +1,23 @@
+.header-inner {
+  display: flex;
+  height: 100px;
+  background-color: #265847;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+/* inner-page-tours */
+
+.tours-header {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.tours-header p {
+  color: #000;
+}
+
+.tours-header a {
+  text-decoration: underline;
+}

@@ -1,0 +1,62 @@
+.footer {
+  margin-top: auto;
+  /* sticky footer*/
+  background-color: #265847;
+  padding-top: 71px;
+  padding-bottom: 94px;
+}
+
+.footer a {
+  color: $mainColor;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-row {
+  @include flex-jc-space-between();
+}
+
+.footer-logo {
+  margin-bottom: 26px;
+}
+
+.footer-copyright p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.footer-copyright {
+  width: 270px;
+}
+
+.footer-widgets-wrapper {
+  @include flex-jc-space-between();
+  column-gap: 30px;
+  padding-top: 10px;
+}
+
+.footer-widget-info {
+  width: 170px;
+}
+
+.footer-widget-services,
+.footer-widget-contacts {
+  width: 270px;
+}
+
+.footer-widget-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.footer-widget-list {
+  font-size: 18px;
+}
+
+.footer-widget-list li:not(:last-child) {
+  margin-bottom: 15px;
+}
